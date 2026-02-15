@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Plus, Search, Filter, Download, LayoutGrid, List, BarChart3, Settings, Bell, ShoppingCart, Truck, Users, FileText, RotateCcw, ShoppingBag, Banknote, CreditCard, PieChart, ShieldCheck, LogOut, User as UserIcon, RefreshCw } from 'lucide-react';
 import { InventoryItem, Supplier, Customer, Purchase, Sale, Receipt, Payment, GeminiInsight, ShippingStatus, User } from './types';
 import { SHIPPING_STATUSES, PAYMENT_MODES } from './constants';
-import { InventoryTable } from './components/InventoryTable';
+import InventoryTable from "./components/InventoryTable";
 import { SuppliersTable } from './components/SuppliersTable';
 import { CustomersTable } from './components/CustomersTable';
 import { PurchasesTable } from './components/PurchasesTable';
